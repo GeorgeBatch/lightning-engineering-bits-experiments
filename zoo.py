@@ -5,8 +5,8 @@ class Animal:
         self.age = 2
 
     def speak(self):
-        print(self.age)
         print("I am an animal")
+        print("My age is ", self.age)
 
 
 class Dog(Animal):
@@ -19,10 +19,10 @@ class Bear(Animal):
         print("I am a bear named", self.name)
 
 
-animal = Animal(name='fluffy')
-dog = Dog(name='fido')
-bear1 = Bear(name='baloo')
-bear2 = Bear(name='yogi')
+animal = Animal(name='Fluffy')
+dog = Dog(name='Fido')
+bear1 = Bear(name='Baloo')
+bear2 = Bear(name='Yogi')
 
 bear1.speak()
 bear2.speak()
